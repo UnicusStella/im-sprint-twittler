@@ -6,7 +6,7 @@
   <title>twittler</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-  <script src="https://ket.fontawesome.com/6e71ea29db.js" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/6e71ea29db.js" crossorigin="anonymous"></script>
   <script src="data.js"></script>
 </head>
 
@@ -16,11 +16,52 @@
   <div id="greeting">twittler</div>
   <div id="test"></div>
 
-  <div id='writeSection'>
-    <div id='userName'>UserName</div>
-    <input type="text" id=>
+  <div id="wirteSection">
+    <div id="userName">Username</div>
+    <input type="text" id="inputUserName">
+    <div id="meassage">Message</div>
+    <input type="text" id="inputMeassage">
+    <div>
+      <button id="tweet">Tweet!</button>
+    </div>
+  </div>
+
+  <div id="readSection">
+    <div id="readHeader">
+      <button id="newTweet">
+        <i class="fas fa-sync"></i>
+        check new tweets</button>
+    </div>
+    <ul id="msgList">
+      <li class="msg">
+        <div class="date">2019-01-04 18:30:20</div>
+        <div class="nickName">ingiKim</div>
+        <div class="nickNameMsg">education for real world</div>
+      </li>
+      <li class="msg">
+        <div class="date">2019-01-04 18:30:50</div>
+        <div class="nickName">stevejobs</div>
+        <div class="nickNameMsg">Stay hungry, and stay foolish</div>
+      </li>
+      <li class="msg">
+        <div class="date">2019-01-04 18:30:30</div>
+        <div class="nickName">ingikim</div>
+        <div class="nickNameMsg">code now! #work #hard</div>
+      </li>
+      <li class="msg">
+        <div class="date">2019-01-04 18:30:40</div>
+        <div class="nickName">johnnykoo</div>
+        <div class="nickNameMsg">this is test message #pair #programming</div>
+      </li>
+      <li class="msg">
+        <div class="date">2019-01-04 18:30:50</div>
+        <div class="nickName">ingikim</div>
+        <div class="nickNameMsg">Welcome to Code States #codestates</div>
+      </li>
+    </ul>
   </div>
   <script src="script.js"></script>
 </body>
+
 
 </html>
